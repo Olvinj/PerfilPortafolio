@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio - Olvin</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-area">
+        <div class="hamburguer-buttons" id="menuBtn">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1>Mi Portafolio</h1>
+    </div>
+
+    <nav id="menu" class="hidden">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre Mi</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+    <img src="12.png" alt="Foto Perfil">
+
+    <div class="overlay">
+        <h2>Olvin Martinez</h2>
+        <p>Estudiante y desarrollador web en formación</p>
+        <button id="btnSaludo">Conocer Más</button>
+    </div>
+</section>
+
+<section class="container" id="sobre">
+    <h2>Biografía</h2>
+
+    <p>
+        Hola, soy Olvin Martinez. Me interesa el desarrollo web,
+        las redes y la ingeniería de software. Disfruto aprender
+        nuevas tecnologías y crear proyectos prácticos utilizando
+        HTML, CSS y JavaScript.
+    </p>
+</section>
+
+<section class="container" id="proyectos">
+    <h2>Mis Proyectos</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>TecnoGest</h3>
+            <p>Sistema de diagnóstico electrónico y gestión.</p>
+        </div>
+
+        <div class="card">
+            <h3>Formulario C#</h3>
+            <p>Registro con conexión a base de datos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Diseño WAN</h3>
+            <p>Proyecto de arquitectura y redes.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="container form-section" id="contacto">
+    <h2>Contáctame</h2>
+
+    <form id="contactForm">
+
+        <input type="text"
+        id="txtNombre"
+        placeholder="Nombre">
+
+        <input type="email"
+        id="txtCorreo"
+        placeholder="Correo">
+
+        <textarea id="txtMensaje"
+        placeholder="Mensaje"></textarea>
+
+        <button id="btnEnviar">
+            Enviar
+        </button>
+
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mi Portafolio</p>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
